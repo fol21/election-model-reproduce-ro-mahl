@@ -6,6 +6,15 @@ the separate downloader retrieves official presidential section result
 archives and writes normalized files. Downloaded data is not yet wired into
 the estimator, and the synthetic output is not an election forecast.
 
+The background description supplied for this project cited the following
+reporting and official data portal. They informed the high-level motivation and
+future integration boundary; they are not sources for the prototype's
+synthetic numbers or a complete specification of its code.
+
+
+   > Estadão, “[Modelo estatístico usado pelo Estadão antecipou resultado com apenas 2,42% das urnas apuradas](https://www.estadao.com.br/politica/eleicoes/modelo-estatistico-usado-pelo-estadao-antecipou-resultado-com-apenas-242-das-urnas-apuradas/).”
+   >Reporting on the projection, prior-election comparison, systematic voting changes, and geographic/municipality-size factors.
+
 ## Requirements
 
 - Python 3.14 or newer
