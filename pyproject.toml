@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "election-model-reproduce-ro-mahl"
+version = "0.1.0"
+description = "A synthetic, TSE-inspired election swing-model prototype"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.3,<3",
+]
+
+[project.scripts]
+election-model = "election_model_reproduce_ro_mahl.cli:main"
+tse-fetch = "election_model_reproduce_ro_mahl.tse_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
